@@ -37,6 +37,12 @@ The selected architecture was:
 
 The model was implemented in Python using `MLPRegressor` from scikit-learn.
 
+## Forecast Comparison
+
+The figure below compares the observed monthly CO₂ concentrations with the 12-month dynamic forecasts produced by the selected SARIMA and neural network models.
+
+![Observed CO2 vs SARIMA and Neural Network forecasts](images/model_comparison.png)
+
 ## Final Test Results
 
 The models were evaluated on a 12-month out-of-sample test period from March 2025 to February 2026.
@@ -49,6 +55,14 @@ The models were evaluated on a 12-month out-of-sample test period from March 202
 On this test period, SARIMA produced lower forecast errors than the neural network.
 
 These results refer to this particular CO₂ time series and test period and should not be interpreted as evidence of general superiority of one forecasting method over another.
+
+## SARIMA Forecast and Prediction Intervals
+
+The selected SARIMA model was also used to generate a 12-month dynamic forecast with 95% prediction intervals.
+
+As the forecast horizon increases, the prediction intervals widen, reflecting the increasing uncertainty associated with longer-term forecasts.
+
+![SARIMA forecast with 95% prediction intervals](images/sarima_forecast_interval.png)
 
 ## Repository Structure
 
