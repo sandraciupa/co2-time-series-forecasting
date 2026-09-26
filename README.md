@@ -15,6 +15,18 @@ The time series begins in 1958 and is expressed in parts per million (ppm).
 
 For model evaluation, the data were divided into training, validation, and test periods while preserving their chronological order.
 
+### Data Source
+
+The monthly atmospheric CO₂ dataset was obtained from the National Oceanic and Atmospheric Administration (NOAA), Global Monitoring Laboratory.
+
+The dataset contains monthly mean atmospheric CO₂ concentrations associated with the Mauna Loa record. Data from March 1958 through April 1974 originate from the Scripps Institution of Oceanography. During the interruption of measurements at Mauna Loa following the 2022 volcanic eruption, observations from the Maunakea Observatories were used for part of the record.
+
+The dataset used in this project is stored in:
+
+`data/co2_mm_mlo.txt`
+
+[NOAA Global Monitoring Laboratory – Monthly CO₂ data](https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_mm_mlo.txt) National Oceanic and Atmospheric Administration (NOAA), Global Monitoring Laboratory. *Monthly mean CO₂ at Mauna Loa Observatory*. Accessed March 24, 2026.
+
 ## Models
 
 ### SARIMA
