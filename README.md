@@ -64,6 +64,7 @@ co2-time-series-forecasting/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
+```
 
 ## Python Requirements
 
