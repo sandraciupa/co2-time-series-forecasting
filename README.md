@@ -21,14 +21,6 @@ For model evaluation, the data were divided into training, validation, and test 
 
 ## Models
 
-The selected architecture was:
-
-**NN(1,12;2)**
-
-It uses CO₂ observations at lags 1 and 12 as inputs and contains two hidden units in a single hidden layer. The final architecture was selected using the validation set and subsequently re-estimated using all available pre-test observations.
-
-The model was implemented in Python using `MLPRegressor` from scikit-learn.
-
 ### SARIMA
 
 The selected statistical model was:
@@ -46,6 +38,8 @@ The neural network uses lagged CO₂ observations as predictors.
 The selected architecture was:
 
 **NN(1,12;2)**
+
+It uses CO₂ observations at lags 1 and 12 as inputs and contains two hidden units in a single hidden layer. The final architecture was selected using the validation set and subsequently re-estimated using all available pre-test observations.
 
 The model was implemented in Python using `MLPRegressor` from scikit-learn.
 
