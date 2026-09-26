@@ -128,6 +128,12 @@ The notebook reads the CO₂ dataset from the `data` directory.
 - Matplotlib
 - Gretl
 
+## License
+
+The code in this repository is available under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+The CO₂ dataset is provided by NOAA and remains subject to the terms and attribution requirements of the original data provider.
+
 ## Author
 
 **Sandra Ciupa**
